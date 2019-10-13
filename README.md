@@ -12,5 +12,5 @@ It will create **rules.yara ** file in current folder.
 
 Next use it with volatility like in this example
 ```cmd
-latility -f dump.raw --profile=WinXPSP2x86 yarascan -y rules.yar
+volatility -f dump.raw --profile=WinXPSP2x86 yarascan -y rules.yar
 ```
